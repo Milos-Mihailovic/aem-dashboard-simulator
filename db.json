@@ -1,0 +1,97 @@
+{
+  "components": [
+    {
+      "id": 1,
+      "name": "Hero Banner",
+      "type": "banner",
+      "description": "A full-width hero banner component for landing pages",
+      "author": "Admin",
+      "createdAt": "2026-01-15T10:00:00Z",
+      "status": "published"
+    },
+    {
+      "id": 2,
+      "name": "Content Card",
+      "type": "card",
+      "description": "Reusable card component for displaying content blocks",
+      "author": "Editor",
+      "createdAt": "2026-01-16T14:30:00Z",
+      "status": "published"
+    },
+    {
+      "id": 3,
+      "name": "Contact Form",
+      "type": "form",
+      "description": "A customizable contact form with validation",
+      "author": "Developer",
+      "createdAt": "2026-01-17T09:15:00Z",
+      "status": "draft"
+    },
+    {
+      "id": 4,
+      "name": "Navigation Menu",
+      "type": "navigation",
+      "description": "Responsive navigation menu component",
+      "author": "Admin",
+      "createdAt": "2026-01-18T11:45:00Z",
+      "status": "published"
+    }
+  ],
+  "pages": [
+    {
+      "id": 1,
+      "title": "Home Page",
+      "slug": "home",
+      "template": "landing",
+      "components": [1, 2],
+      "status": "published",
+      "lastModified": "2026-01-19T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "About Us",
+      "slug": "about",
+      "template": "content",
+      "components": [2, 4],
+      "status": "published",
+      "lastModified": "2026-01-18T16:30:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Contact",
+      "slug": "contact",
+      "template": "form",
+      "components": [3, 4],
+      "status": "draft",
+      "lastModified": "2026-01-17T12:00:00Z"
+    }
+  ],
+  "statistics": {
+    "totalComponents": 4,
+    "totalPages": 3,
+    "publishedPages": 2,
+    "draftPages": 1,
+    "activeUsers": 12,
+    "lastUpdated": "2026-01-20T10:00:00Z"
+  },
+  "templates": [
+    {
+      "id": 1,
+      "name": "landing",
+      "displayName": "Landing Page",
+      "description": "Full-width template for marketing pages"
+    },
+    {
+      "id": 2,
+      "name": "content",
+      "displayName": "Content Page",
+      "description": "Standard content page with sidebar"
+    },
+    {
+      "id": 3,
+      "name": "form",
+      "displayName": "Form Page",
+      "description": "Page template optimized for forms"
+    }
+  ]
+}
