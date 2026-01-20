@@ -2,7 +2,7 @@
   "name": "aem-dashboard-simulator",
   "private": true,
   "version": "1.0.0",
-  "description": "A beginner-friendly Vue.js project simulating Adobe Experience Manager (AEM) dashboard functionality",
+  "description": "A beginner-friendly Vue.js project simulating Adobe Experience Manager (AEM) dashboard functionality - demonstrating component-based architecture similar to AEM's content management system",
   "type": "module",
   "scripts": {
     "dev": "vite",

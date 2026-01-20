@@ -1,13 +1,16 @@
 <!--
   AEM Block Component
   
-  This component represents a content block similar to AEM's content fragments.
-  It's a flexible container that can hold various types of content.
+  This component represents a content block similar to Adobe Experience Manager's (AEM)
+  content fragments and experience fragments. In AEM, these are used for:
+  - Reusable content sections
+  - Layout containers (like AEM's Layout Container component)
+  - Experience Fragments for cross-channel content
   
   Key Vue.js concepts demonstrated:
   - Dynamic components with :is
   - Conditional rendering with v-if/v-else
-  - Slot props for passing data to slot content
+  - Slot props for passing data to slot content (similar to AEM's HTL data-sly-resource)
   - Computed properties for derived state
 -->
 

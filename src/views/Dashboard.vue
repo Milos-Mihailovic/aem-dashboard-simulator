@@ -18,7 +18,7 @@
       eyebrow="Welcome to"
       title="AEM Dashboard Simulator"
       subtitle="Manage your content components and pages"
-      description="This beginner-friendly project demonstrates Vue.js concepts including components, routing, API integration, and more."
+      description="This project simulates Adobe Experience Manager (AEM) - an enterprise CMS by Adobe. Learn Vue.js while understanding AEM's component-based architecture."
       size="medium"
       alignment="left"
       primary-action="View Components"

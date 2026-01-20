@@ -1,6 +1,18 @@
 # 🎨 AEM Dashboard Simulator
 
-A beginner-friendly Vue.js project that simulates Adobe Experience Manager (AEM) dashboard functionality. This project demonstrates essential frontend development skills including Vue.js components, routing, REST API integration, and modern CSS with LESS.
+A beginner-friendly Vue.js project that simulates **Adobe Experience Manager (AEM)** dashboard functionality. 
+
+## What is Adobe Experience Manager (AEM)?
+
+[Adobe Experience Manager](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html) is an enterprise-grade content management solution (CMS) used by organizations worldwide to create, manage, and deliver digital experiences across websites, mobile apps, and forms. AEM uses a component-based architecture where reusable UI components are assembled to create pages and experiences.
+
+This project simulates key AEM concepts:
+- **Components** - Reusable UI building blocks (like AEM's content components)
+- **Templates** - Page layouts that define structure
+- **Pages** - Content pages built from components
+- **Authoring Interface** - Dashboard for content management
+
+This project demonstrates essential frontend development skills including Vue.js components, routing, REST API integration, and modern CSS with LESS.
 
 ![Vue.js](https://img.shields.io/badge/Vue.js-3.x-4FC08D?style=flat-square&logo=vue.js)
 ![Vite](https://img.shields.io/badge/Vite-7.x-646CFF?style=flat-square&logo=vite)
@@ -29,15 +41,15 @@ A beginner-friendly Vue.js project that simulates Adobe Experience Manager (AEM)
 
 ## 🛠 Technologies Used
 
-| Technology | Purpose |
-|------------|---------|
-| **Vue.js 3** | Frontend framework with Composition API |
-| **Vue Router** | Client-side routing and navigation |
-| **Axios** | HTTP client for API requests |
-| **LESS** | CSS preprocessor for styling |
-| **jQuery** | DOM manipulation and animations |
-| **Vite** | Build tool and development server |
-| **json-server** | Mock REST API for development |
+| Technology | Purpose | AEM Relevance |
+|------------|---------|---------------|
+| **Vue.js 3** | Frontend framework with Composition API | Similar to AEM's HTL/Sightly templating |
+| **Vue Router** | Client-side routing and navigation | Mimics AEM's page navigation |
+| **Axios** | HTTP client for API requests | Like AEM's Sling Model JSON exports |
+| **LESS** | CSS preprocessor for styling | AEM commonly uses LESS/SASS |
+| **jQuery** | DOM manipulation and animations | jQuery is bundled with AEM |
+| **Vite** | Build tool and development server | Similar to AEM's Maven/webpack builds |
+| **json-server** | Mock REST API for development | Simulates AEM's content API |
 
 ## 📁 Project Structure
 
@@ -294,6 +306,11 @@ await apiService.components.create({
 ```
 
 ## 📚 Learning Resources
+
+### Adobe Experience Manager (AEM)
+- [AEM Official Documentation](https://experienceleague.adobe.com/docs/experience-manager.html)
+- [AEM Developer Guide](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/the-basics.html)
+- [AEM Component Development](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/overview.html)
 
 ### Vue.js
 - [Vue.js Official Documentation](https://vuejs.org/guide/introduction.html)

@@ -1,12 +1,18 @@
 <!--
   AEM Form Component
   
-  A reusable form component that mimics AEM's form functionality.
+  A reusable form component that mimics Adobe Experience Manager's (AEM) Forms
+  functionality. AEM Forms is used for:
+  - Adaptive Forms (responsive, dynamic forms)
+  - Form data capture and submission
+  - Integration with backend services
+  - PDF generation and document services
+  
   This component demonstrates:
   - v-model for two-way data binding
-  - Form validation
+  - Form validation (similar to AEM's client-side validation)
   - Event handling
-  - Dynamic form fields
+  - Dynamic form fields (like AEM's Adaptive Form components)
   
   BEGINNER TIP: Forms are essential for user input. Vue's v-model
   makes it easy to sync form inputs with component data.

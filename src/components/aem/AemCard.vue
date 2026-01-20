@@ -1,10 +1,16 @@
 <!--
   AEM Card Component
   
-  This is a reusable card component that mimics AEM's card-based content blocks.
+  This is a reusable card component that mimics Adobe Experience Manager's (AEM)
+  card-based content blocks. In AEM, cards are commonly used in:
+  - Content Fragment lists
+  - Asset displays
+  - Teaser components
+  - Navigation cards
+  
   It demonstrates several Vue.js concepts:
   - Props: For passing data from parent to child
-  - Slots: For flexible content injection
+  - Slots: For flexible content injection (similar to AEM's parsys)
   - Emits: For child-to-parent communication
   - Scoped styles: For component-specific styling
   

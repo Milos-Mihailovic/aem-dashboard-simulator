@@ -1,11 +1,17 @@
 <!--
   AEM Banner Component
   
-  A hero banner component similar to AEM's hero/banner components.
-  Great for landing pages and section headers.
+  A hero banner component similar to Adobe Experience Manager's (AEM) Teaser
+  and Hero components from AEM Core Components. In AEM, these are used for:
+  - Landing page heroes
+  - Campaign banners
+  - Call-to-action sections
+  - Marketing promotions
+  
+  Reference: https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/teaser.html
   
   Demonstrates:
-  - Background image handling
+  - Background image handling (like AEM's DAM asset integration)
   - Overlay effects
   - Responsive design
   - CSS animations
